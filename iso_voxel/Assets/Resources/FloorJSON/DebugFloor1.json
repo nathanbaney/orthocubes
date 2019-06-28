@@ -1,0 +1,5205 @@
+{
+    "block_data": [
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "111F111F111FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        },
+	{
+    	    "block_perm": "000F000F000FFFFF",
+    	    "material_overrides": [
+       	         {
+            	    "voxel_index": 51,
+                    "material": "Materials/mat2"
+                },
+	        {
+                    "voxel_index": 20,
+                    "material": "Materials/mat2"
+                }
+            ]
+        }
+    ]
+}
+	
