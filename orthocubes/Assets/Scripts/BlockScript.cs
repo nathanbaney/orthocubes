@@ -68,6 +68,13 @@ public class BlockScript : MonoBehaviour
             transform.Find("voxel" + mo.voxel_index).GetComponent<MeshRenderer>().materials = mats;
         }
     }
+    public void set_visible(bool visible)
+    {
+        foreach(MeshRenderer voxel in GetComponentsInChildren<MeshRenderer>())
+        {
+            voxel.enabled = visible;
+        }
+    }
 }
 [System.Serializable]
 public class BlockData

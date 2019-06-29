@@ -7,6 +7,8 @@ public class PlayerScript : MonoBehaviour
     bool is_moving = false;
     float speed = 3;
 
+    public int height;
+
     RaycastHit hit;
     Vector3 target;
 
@@ -42,6 +44,8 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position = target;
             is_moving = false;
+            height = (int)transform.position.y / 4;
+            print(height);
         }
         else
         {

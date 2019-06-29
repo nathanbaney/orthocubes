@@ -9,10 +9,13 @@ public class CamScript : MonoBehaviour
     public float rotation_speed = 9; //must be factor of 90
     private bool is_rotating = false;
     private int rotation_step = 0;
+    public GameObject player;
+
+    private int player_height = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        player_height = player.GetComponent<PlayerScript>().height;
     }
 
     // Update is called once per frame
@@ -46,6 +49,29 @@ public class CamScript : MonoBehaviour
         if (Input.GetButtonUp("ResetCam"))
         {
             transform.position = new Vector3(0, 10, 0);
+        }
+        check_visible_blocks();
+
+    }
+    public void check_visible_blocks()
+    {
+        if(player_height != player.GetComponent<PlayerScript>().height)
+        {   
+            if(player_height > player.GetComponent<PlayerScript>().height)
+            {
+                for(int floor = player_height; floor > player.GetComponent<PlayerScript>().height; floor--)
+                {
+                    transform.parent.GetComponent<LevelScript>().set_floor_visible(floor, false);
+                }
+            }
+            else
+            {
+                for (int floor = player_height; floor <= player.GetComponent<PlayerScript>().height; floor++)
+                {
+                    transform.parent.GetComponent<LevelScript>().set_floor_visible(floor, true);
+                }
+            }
+            player_height = player.GetComponent<PlayerScript>().height;
         }
     }
 }
