@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    bool is_moving = false;
+    bool isMoving = false;
     float speed = 3;
 
     public int height;
@@ -21,9 +21,9 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (is_moving)
+        /*if (isMoving)
         {
-            move_to_target();
+            moveToTarget();
         }
         else if (Input.GetMouseButtonUp(0))
         {
@@ -33,17 +33,18 @@ public class PlayerScript : MonoBehaviour
                 print(hit.distance);
                 target = hit.collider.transform.parent.gameObject.transform.position;
                 target = new Vector3(target.x + 2, target.y + 2, target.z + 2);
-                is_moving = true;
-                move_to_target();
+                isMoving = true;
+                moveToTarget();
             }
         }
+        */
     }
-    void move_to_target()
+    void moveToTarget()
     {
         if (Vector3.Distance(transform.position, target) < 0.1)
         {
             transform.position = target;
-            is_moving = false;
+            isMoving = false;
             height = (int)transform.position.y / 4;
             print(height);
         }

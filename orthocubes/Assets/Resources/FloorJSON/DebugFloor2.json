@@ -1,0 +1,5604 @@
+{
+    "blockData": [
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        },
+	{
+    	    "blockPerm": "111F111F111FFFFF",
+	    "walkableData": [false,false,false,false,false,false],
+    	    "materialOverrides": [
+       	         {
+            	    "voxelIndex": 51,
+                    "material": "Materials/Metal_w_hole"
+                },
+	        {
+                    "voxelIndex": 20,
+                    "material": "Materials/Metal_w_hole"
+                }
+            ]
+        }
+    ]
+}

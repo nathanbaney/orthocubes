@@ -56,11 +56,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BlockScript.cs" />
+     <Compile Include="Assets\Scripts\BuildingScript.cs" />
      <Compile Include="Assets\Scripts\CamScript.cs" />
-     <Compile Include="Assets\Scripts\GridScript.cs" />
      <Compile Include="Assets\Scripts\LevelScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <Compile Include="Assets\Scripts\VoxelScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/files/dev/git/orthocubes/orthocubes/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

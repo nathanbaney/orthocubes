@@ -5,73 +5,73 @@ using UnityEngine;
 public class CamScript : MonoBehaviour
 {
     public float speed;
-    public float zoom_speed = 2;
-    public float rotation_speed = 9; //must be factor of 90
-    private bool is_rotating = false;
-    private int rotation_step = 0;
+    public float zoomSpeed = 2;
+    public float rotationSpeed = 9; //must be factor of 90
+    private bool isRotating = false;
+    private int rotationStep = 0;
     public GameObject player;
 
-    private int player_height = 0;
+    private int playerHeight = 0;
     // Start is called before the first frame update
     void Start()
     {
-        player_height = player.GetComponent<PlayerScript>().height;
+        playerHeight = player.GetComponent<PlayerScript>().height;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float unit_fwd = Input.GetAxis("MoveForward") * speed;
-        Vector3 translation_fwd = Vector3.Cross(transform.right, Vector3.up);
-        transform.Translate(translation_fwd * unit_fwd, Space.World);
-        float unit_side = Input.GetAxis("MoveRight") * speed;
-        Vector3 translation_side = Vector3.Cross(Vector3.up, transform.forward);
-        transform.Translate(translation_side * unit_side, Space.World);
-        Camera.main.orthographicSize += Input.GetAxis("Zoom") * zoom_speed;
+        float unitFwd = Input.GetAxis("MoveForward") * speed;
+        Vector3 translationFwd = Vector3.Cross(transform.right, Vector3.up);
+        transform.Translate(translationFwd * unitFwd, Space.World);
+        float unitSide = Input.GetAxis("MoveRight") * speed;
+        Vector3 translationSide = Vector3.Cross(Vector3.up, transform.forward);
+        transform.Translate(translationSide * unitSide, Space.World);
+        Camera.main.orthographicSize += Input.GetAxis("Zoom") * zoomSpeed;
         if(Camera.main.orthographicSize < 1)
         {
             Camera.main.orthographicSize = 1;
         }
-        if (Input.GetButtonUp("Rotate") && !is_rotating)
+        if (Input.GetButtonUp("Rotate") && !isRotating)
         {
-            is_rotating = true;
-            rotation_step = 0;
+            isRotating = true;
+            rotationStep = 0;
         }
-        if (is_rotating && rotation_step < 90.0/rotation_speed)
+        if (isRotating && rotationStep < 90.0/rotationSpeed)
         {
-            transform.Rotate(0, rotation_speed, 0, Space.World);
-            rotation_step++;
+            transform.Rotate(0, rotationSpeed, 0, Space.World);
+            rotationStep++;
         }
         else
         {
-            is_rotating = false;
+            isRotating = false;
         }
         if (Input.GetButtonUp("ResetCam"))
         {
             transform.position = new Vector3(0, 10, 0);
         }
-        check_visible_blocks();
+        checkVisibleBlocks();
 
     }
-    public void check_visible_blocks()
+    public void checkVisibleBlocks()
     {
-        if(player_height != player.GetComponent<PlayerScript>().height)
+        if(playerHeight != player.GetComponent<PlayerScript>().height)
         {   
-            if(player_height > player.GetComponent<PlayerScript>().height)
+            if(playerHeight > player.GetComponent<PlayerScript>().height)
             {
-                for(int floor = player_height; floor > player.GetComponent<PlayerScript>().height; floor--)
+                for(int floor = playerHeight; floor > player.GetComponent<PlayerScript>().height; floor--)
                 {
-                    transform.parent.GetComponent<LevelScript>().set_floor_visible(floor, false);
+                    transform.parent.GetComponent<LevelScript>().setFloorVisible(floor, false);
                 }
             }
             else
             {
-                for (int floor = player_height; floor <= player.GetComponent<PlayerScript>().height; floor++)
+                for (int floor = playerHeight; floor <= player.GetComponent<PlayerScript>().height; floor++)
                 {
-                    transform.parent.GetComponent<LevelScript>().set_floor_visible(floor, true);
+                    transform.parent.GetComponent<LevelScript>().setFloorVisible(floor, true);
                 }
             }
-            player_height = player.GetComponent<PlayerScript>().height;
+            playerHeight = player.GetComponent<PlayerScript>().height;
         }
     }
 }
