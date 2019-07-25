@@ -10,10 +10,12 @@ public class BlockScript : MonoBehaviour
     public BlockData blockData;
     public bool[] walkable; //0 is NE, 1 SE, 2 SW, 3 NW, 4 up, 5 down
 
-    public ulong wallPerm = System.Convert.ToUInt64("000f000f000f000f",16);
+    public ulong wallPerm = 0L; //System.Convert.ToUInt64("1000000000F00000",16);
     // Start is called before the first frame update
     void Start()
     {
+        wallPerm = 0x000F000F000F000F;
+        print(wallPerm);
         print(getRotation(wallPerm, 1));
     }
 
@@ -122,7 +124,7 @@ public class BlockScript : MonoBehaviour
         for (byte index = 0; index < 64; index++)
         {
             ulong startingBitValue = blockPerm & (bit << index);
-            ulong endingBit = startingBitValue << getRotationIndex(index, rotation);
+            ulong endingBit = startingBitValue << getRotationIndex(index, rotation) - index;
             rotatedPerm = rotatedPerm | endingBit;
         }
         return rotatedPerm;
