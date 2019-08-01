@@ -134,7 +134,9 @@ public class LevelScript : MonoBehaviour
     Palette deserializePalette(string path)
     {
         TextAsset jsonString = Resources.Load<TextAsset>(path);
-        Palette palette = JsonUtility.FromJson<Palette>(jsonString.ToString());
+        PaletteData data = JsonUtility.FromJson<PaletteData>(jsonString.ToString());
+        Palette palette = new Palette();
+        palette.deserialize(data);
         return palette;
     }
     void debugBuildWall(int xpos)
@@ -334,81 +336,68 @@ public class Move
     }
 }
 //A Palette is the datastructure that holds the processed information gathered from a sample image according to the WFC algorithm.
-[System.Serializable]
 public class Palette
 {
+    public PaletteData paletteData;
     public uint xSize; //horizontal size of sample image
     public uint ySize; //vertical size of sample image
-    public BlockData[] sampleArray; //single dimensional array to play nicely with json parcing
     BlockData[,] sampleBlockArray; //the original sample "image", made 2d array
     uint numberOfTiles;
 
     uint tileSize; //ALWAYS 3, IM TIRED OF MATRIX STUFF, NO EXCEPTIONS
-    BlockData[][][,] tiles; //the set of tiles that make up the sample image. tileindex, rotation, the actual tile itself.
+    Tile[][] tiles; //the set of tiles that make up the sample image. tileindex, rotation, the actual tile itself.
     uint[] frequencies; //the amount that each tile occurs in the sample
     bool[,,,,] adjacencyRules; //whether each tile and their rotations can exist 1 unit cardinal direction away from another tile without contradicting overlap
 
-    public Palette(BlockData[] sample, uint xSize, uint ySize)
+    public Palette()
     {
-        sampleArray = sample;
-        this.xSize = xSize;
-        this.ySize = ySize;
-        this.tileSize = 3;
+
     }
     //sets tiles, frequencies, adjacency rules
     public void processTiles()
     {
         tileSize = 3;
         numberOfTiles = xSize * ySize;
-        sampleBlockArray = new BlockData[xSize, ySize];
-        for(int x = 0; x < xSize; x++)
+        getTiles();
+        for (int ii = 0; ii < numberOfTiles; ii++)
         {
-            for(int y = 0; y < ySize; y++)
-            {
-                sampleBlockArray[x, y] = sampleArray[x + y * xSize];
-            }
+            Debug.Log(tiles[ii][0].blocks[0, 0].blockPerm);
         }
-        tiles = getTiles();
         //frequencies = getFrequencies();
         //adjacencyRules = getAdjacencyRules();
     }
-    private BlockData[][][,] getTiles()
+    private void getTiles()
     {
-        BlockData[][][,]tileArray = new BlockData[numberOfTiles][][,];
+        tiles = new Tile[numberOfTiles][];
         for (int ii = 0; ii < numberOfTiles; ii++)
         {
-            tileArray[ii] = new BlockData[4][,];
-            for(int jj = 0; jj < 4; jj++)
-            {
-                tileArray[ii][jj] = new BlockData[tileSize, tileSize];
-            }
+            tiles[ii] = new Tile[4];
         }
         int index = 0;
         for(uint y = 0; y < ySize; y++)
         {
             for(uint x = 0; x < xSize; x++)
             {
-                Debug.Log("index"+index);
-                tileArray[index][0] = getTileAtPosition(x, y);
-                for(uint rot = 1; rot < 4; rot++)
+                tiles[index][0] = getTileAtPosition(x, y);
+                for (uint rot = 1; rot < 4; rot++)
                 {
-                    tileArray[index][rot] = getRotatedTile(tileArray[index][0], rot);
+                    //try this line next
+                    tiles[index][rot] = getRotatedTile(tiles[index][0], rot);
                 }
                 index++;
             }
         }
-        return tileArray;
     }
-    private BlockData[,] getTileAtPosition(uint x, uint y)
+    private Tile getTileAtPosition(uint x, uint y)
     {
-        BlockData[,] tile = new BlockData[tileSize,tileSize];
-        for(uint ii = 0; ii < tileSize; ii++)
+        Tile tile = new Tile(tileSize);
+        for(int ii = 0; ii < tileSize; ii++)
         {
-            for(uint jj = 0; jj < tileSize; jj++)
+            for(int jj = 0; jj < tileSize; jj++)
             {
-                Debug.Log(sampleBlockArray[(x + ii) % xSize, (y + jj) % ySize].blockPerm);
-                tile[ii, jj] = sampleBlockArray[(x + ii)%xSize, (y + jj)%ySize];
-                Debug.Log("x/y: " + ((x + ii) % xSize) + ((y + jj) % ySize) + " " +tile[ii, jj].blockPerm);
+                //Debug.Log(sampleBlockArray[(x + ii) % xSize, (y + jj) % ySize].blockPerm);
+                //Debug.Log(sampleArray[(x + ii) % xSize + ((y + jj) % ySize)*xSize].blockPerm);
+                tile.setBlock(ii,jj,sampleBlockArray[(x + ii)%xSize, (y + jj)%ySize]);
             }
         }
         return tile;
@@ -435,13 +424,13 @@ public class Palette
         }
         return freqs;
     }
-    private bool tileEquals(BlockData[,] tileA, BlockData[,] tileB)
+    private bool tileEquals(Tile tileA, Tile tileB)
     {
         for(int ii = 0; ii < tileSize; ii++)
         {
             for(int jj = 0; jj < tileSize; jj++)
             {
-                if (!tileA[ii, jj].blockPerm.Equals(tileB[ii, jj]))
+                if (!tileA.blocks[ii, jj].blockPerm.Equals(tileB.blocks[ii, jj]))
                 {
                     return false;
                 }
@@ -463,30 +452,31 @@ public class Palette
         {(1,2), (1,1), (1,0) },
         {(2,2), (2,1), (2,0) }
     };
-    public BlockData[,] getRotatedTile(BlockData[,] tile, uint rotations)
+    public Tile getRotatedTile(Tile tile, uint rotations)
     {
-        BlockData[,] rotatedTile = tile;
-        for(int rots = 0; rots < rotations; rots++)
+        Tile rotatedTile = new Tile(tileSize);
+        rotatedTile.setBlocks(tile.blocks);
+        for (int rots = 0; rots < rotations; rots++)
         {
             rotatedTile = getRotatedTile(rotatedTile);
         }
         return rotatedTile;
     }
-    public BlockData[,] getRotatedTile(BlockData[,] tile) 
+    public Tile getRotatedTile(Tile tile) 
     {
-        BlockData[,] rotatedTile = tile;
+        Tile rotatedTile = new Tile(tileSize);
         for (uint x = 0; x < tileSize; x++)
         {
             for (uint y = 0; y < tileSize; y++)
             {
+                Debug.Log("pos:" + x + " " + y + " perm: " + tile.blocks[x, y].blockPerm);
                 (int, int) rot = tileRotationArray[x, y];
-                rotatedTile[rot.Item1,rot.Item2] = tile[x, y];
+                rotatedTile.setBlock(rot.Item1, rot.Item2, tile.blocks[x, y]);
+                ulong perm = System.Convert.ToUInt64(rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm, 16);
+                string permString = BlockScript.getRotation(perm, 1).ToString("X");
+                rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm = permString;
+                Debug.Log("pos:" + x + " " + y + " perm: " + tile.blocks[x,y].blockPerm);
             }
-        }
-        foreach(BlockData block in rotatedTile)
-        {
-            ulong perm = System.Convert.ToUInt64(block.blockPerm, 16);
-            block.blockPerm = BlockScript.getRotation(perm, 1).ToString("X");
         }
         return rotatedTile;
     }
@@ -512,7 +502,7 @@ public class Palette
         }
         return rules;
     }
-    private bool compatible(BlockData[,] tileA, BlockData[,] tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
+    private bool compatible(Tile tileA, Tile tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
     {
         switch (direction)
         {
@@ -528,13 +518,13 @@ public class Palette
 
         return true;
     }
-    private bool compatibleUp(BlockData[,] tileA, BlockData[,] tileB)
+    private bool compatibleUp(Tile tileA, Tile tileB)
     {
         for(uint x = 0; x < tileSize; x++)
         {
             for(uint y = 0; y < tileSize - 1; y++)
             {
-                if(tileA[x,y].blockPerm != tileB[x, y + 1].blockPerm)
+                if(tileA.blocks[x,y].blockPerm != tileB.blocks[x, y + 1].blockPerm)
                 {
                     return false;
                 }
@@ -542,13 +532,13 @@ public class Palette
         }
         return true;
     }
-    private bool compatibleRight(BlockData[,] tileA, BlockData[,] tileB)
+    private bool compatibleRight(Tile tileA, Tile tileB)
     {
         for (uint x = 1; x < tileSize; x++)
         {
             for (uint y = 0; y < tileSize; y++)
             {
-                if (tileA[x, y].blockPerm != tileB[x - 1, y].blockPerm)
+                if (tileA.blocks[x, y].blockPerm != tileB.blocks[x - 1, y].blockPerm)
                 {
                     return false;
                 }
@@ -556,13 +546,13 @@ public class Palette
         }
         return true;
     }
-    private bool compatibleDown(BlockData[,] tileA, BlockData[,] tileB)
+    private bool compatibleDown(Tile tileA, Tile tileB)
     {
         for (uint x = 0; x < tileSize; x++)
         {
             for (uint y = 1; y < tileSize; y++)
             {
-                if (tileA[x, y].blockPerm != tileB[x, y - 1].blockPerm)
+                if (tileA.blocks[x, y].blockPerm != tileB.blocks[x, y - 1].blockPerm)
                 {
                     return false;
                 }
@@ -570,19 +560,35 @@ public class Palette
         }
         return true;
     }
-    private bool compatibleLeft(BlockData[,] tileA, BlockData[,] tileB)
+    private bool compatibleLeft(Tile tileA, Tile tileB)
     {
         for (uint x = 0; x < tileSize - 1; x++)
         {
             for (uint y = 0; y < tileSize; y++)
             {
-                if (tileA[x, y].blockPerm != tileB[x + 1, y].blockPerm)
+                if (tileA.blocks[x, y].blockPerm != tileB.blocks[x + 1, y].blockPerm)
                 {
                     return false;
                 }
             }
         }
         return true;
+    }
+    public void deserialize(PaletteData data)
+    {
+        this.paletteData = data;
+        this.xSize = (uint)data.xSize;
+        this.ySize = (uint)data.ySize;
+        sampleBlockArray = new BlockData[xSize, ySize];
+        int index = 0;
+        for(int y = 0; y < ySize; y++)
+        {
+            for(int x = 0; x < xSize; x++)
+            {
+                sampleBlockArray[x, y] = data.sampleArray[index];
+                index++;
+            }
+        }
     }
     public void debugPrint()
     {
@@ -596,9 +602,32 @@ public class Palette
             {
                 for (int y = 0; y < tileSize; y++)
                 {
-                    Debug.Log(tiles[ii][0][x, y].blockPerm);
+                    Debug.Log(tiles[ii][0].blocks[x,y].blockPerm);
                 }
             }
         }
     }
+}
+public class Tile
+{
+    public BlockData[,] blocks;
+    public Tile(uint size)
+    {
+        this.blocks = new BlockData[size, size];
+    }
+    public void setBlock(int x, int y, BlockData block)
+    {
+        blocks[x, y] = block;
+    }
+    public void setBlocks(BlockData[,] blocks)
+    {
+        this.blocks = blocks;
+    }
+}
+[System.Serializable]
+public class PaletteData
+{
+    public int xSize;
+    public int ySize;
+    public BlockData[] sampleArray;
 }
