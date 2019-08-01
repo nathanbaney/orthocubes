@@ -1,0 +1,2 @@
+D:\dev\orthocubes\orthocubes\orthocubes\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\dev\orthocubes\orthocubes\orthocubes\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

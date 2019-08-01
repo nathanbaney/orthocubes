@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class LevelScript : MonoBehaviour
 {
     public GameObject block;
-    public int LEVEL_WIDTH = 10;
-    public int LEVEL_HEIGHT = 4;
-    public int LEVEL_LENGTH = 10;
+    public int LEVEL_WIDTH;
+    public int LEVEL_HEIGHT;
+    public int LEVEL_LENGTH;
     public GridSpace[][,] grid;
     public bool[] levelVis;
     private int blockSize = 4;
@@ -18,14 +19,29 @@ public class LevelScript : MonoBehaviour
 
     public Stack<Move> moveStack = new Stack<Move>();
 
+    public ulong wallPerm = 0x000F000F000F000F;
+    public Palette debugPalette;
+
     // Start is called before the first frame update
     void Start()
     {
-        deserialize();
+        if (Resources.Load<TextAsset>("FloorJSON/floorData") != null)
+        {
+            deserialize();
+        }
+        else
+        {
+            buildBlankFloor();
+        }
         buildBlocks();
         buildBlockPerms();
         buildMaterialOverrides();
         player = new Entity(new Coordinate(0, 0, 0), GameObject.Find("Player"));
+        debugPalette = deserializePalette("PaletteJSON/debugPalette");
+        debugPalette.processTiles();
+        //debugPalette.debugPrint();
+        
+        //debugBuildWall(4);
     }
 
     // Update is called once per frame
@@ -39,6 +55,8 @@ public class LevelScript : MonoBehaviour
         //resolve all moves
         //wait for input
     }
+
+    //initialization functions
     void buildBlocks()
     {
         grid = new GridSpace[LEVEL_HEIGHT][,];
@@ -77,7 +95,7 @@ public class LevelScript : MonoBehaviour
     }
     void deserialize()
     {
-        TextAsset jsonString = Resources.Load<TextAsset>("FloorJSON/DebugFloor2");
+        TextAsset jsonString = Resources.Load<TextAsset>("FloorJSON/floorData");
         levelData = JsonUtility.FromJson<LevelData>(jsonString.ToString());
     }
     void buildMaterialOverrides()
@@ -93,6 +111,50 @@ public class LevelScript : MonoBehaviour
             }
         }
     }
+    void buildBlankFloor()
+    {
+        //make leveldata and json string representation of a levelwidth x levellength x levelheight flat level
+        levelData = new LevelData(LEVEL_WIDTH * LEVEL_LENGTH * LEVEL_HEIGHT);
+        for (int y = 0; y < LEVEL_HEIGHT; y++)
+        {
+            for(int z = 0; z < LEVEL_LENGTH; z++)
+            {
+                for (int x = 0; x < LEVEL_WIDTH; x++)
+                {
+                    levelData.blockData[x + z * LEVEL_WIDTH + y * LEVEL_LENGTH * LEVEL_WIDTH] = new BlockData();
+                }
+            }
+        }
+        StreamWriter writer = new StreamWriter("Assets/Resources/FloorJSON/floorData.json");
+        writer.Write(JsonUtility.ToJson(levelData, true));
+        writer.Close();
+    }
+
+    //generation functions
+    Palette deserializePalette(string path)
+    {
+        TextAsset jsonString = Resources.Load<TextAsset>(path);
+        Palette palette = JsonUtility.FromJson<Palette>(jsonString.ToString());
+        return palette;
+    }
+    void debugBuildWall(int xpos)
+    {
+        ulong rotatedPerm = 0;
+        for(int ii = 0; ii < 10; ii++)
+        {
+            if (rotatedPerm == 0)
+            {
+                rotatedPerm =  BlockScript.getRotation(wallPerm, 1);
+            }
+            grid[0][xpos, ii].block.GetComponent<BlockScript>().combinePerm(rotatedPerm);
+        }
+    }
+    void generateFromPalette(Palette palette)
+    {
+
+    }
+
+    //entity + visibility functions
     public void setFloorVisible(int floor, bool visible)
     {
         for (int x = 0; x < LEVEL_WIDTH; x++)
@@ -169,6 +231,10 @@ public class LevelScript : MonoBehaviour
 public class LevelData
 {
     public BlockData[] blockData;
+    public LevelData(int size)
+    {
+        this.blockData = new BlockData[size];
+    }
 }
 public class Coordinate
 {
@@ -265,5 +331,274 @@ public class Move
     public void execute()
     {
         entity.moveTo(destination);
+    }
+}
+//A Palette is the datastructure that holds the processed information gathered from a sample image according to the WFC algorithm.
+[System.Serializable]
+public class Palette
+{
+    public uint xSize; //horizontal size of sample image
+    public uint ySize; //vertical size of sample image
+    public BlockData[] sampleArray; //single dimensional array to play nicely with json parcing
+    BlockData[,] sampleBlockArray; //the original sample "image", made 2d array
+    uint numberOfTiles;
+
+    uint tileSize; //ALWAYS 3, IM TIRED OF MATRIX STUFF, NO EXCEPTIONS
+    BlockData[][][,] tiles; //the set of tiles that make up the sample image. tileindex, rotation, the actual tile itself.
+    uint[] frequencies; //the amount that each tile occurs in the sample
+    bool[,,,,] adjacencyRules; //whether each tile and their rotations can exist 1 unit cardinal direction away from another tile without contradicting overlap
+
+    public Palette(BlockData[] sample, uint xSize, uint ySize)
+    {
+        sampleArray = sample;
+        this.xSize = xSize;
+        this.ySize = ySize;
+        this.tileSize = 3;
+    }
+    //sets tiles, frequencies, adjacency rules
+    public void processTiles()
+    {
+        tileSize = 3;
+        numberOfTiles = xSize * ySize;
+        sampleBlockArray = new BlockData[xSize, ySize];
+        for(int x = 0; x < xSize; x++)
+        {
+            for(int y = 0; y < ySize; y++)
+            {
+                sampleBlockArray[x, y] = sampleArray[x + y * xSize];
+            }
+        }
+        tiles = getTiles();
+        //frequencies = getFrequencies();
+        //adjacencyRules = getAdjacencyRules();
+    }
+    private BlockData[][][,] getTiles()
+    {
+        BlockData[][][,]tileArray = new BlockData[numberOfTiles][][,];
+        for (int ii = 0; ii < numberOfTiles; ii++)
+        {
+            tileArray[ii] = new BlockData[4][,];
+            for(int jj = 0; jj < 4; jj++)
+            {
+                tileArray[ii][jj] = new BlockData[tileSize, tileSize];
+            }
+        }
+        int index = 0;
+        for(uint y = 0; y < ySize; y++)
+        {
+            for(uint x = 0; x < xSize; x++)
+            {
+                Debug.Log("index"+index);
+                tileArray[index][0] = getTileAtPosition(x, y);
+                for(uint rot = 1; rot < 4; rot++)
+                {
+                    tileArray[index][rot] = getRotatedTile(tileArray[index][0], rot);
+                }
+                index++;
+            }
+        }
+        return tileArray;
+    }
+    private BlockData[,] getTileAtPosition(uint x, uint y)
+    {
+        BlockData[,] tile = new BlockData[tileSize,tileSize];
+        for(uint ii = 0; ii < tileSize; ii++)
+        {
+            for(uint jj = 0; jj < tileSize; jj++)
+            {
+                Debug.Log(sampleBlockArray[(x + ii) % xSize, (y + jj) % ySize].blockPerm);
+                tile[ii, jj] = sampleBlockArray[(x + ii)%xSize, (y + jj)%ySize];
+                Debug.Log("x/y: " + ((x + ii) % xSize) + ((y + jj) % ySize) + " " +tile[ii, jj].blockPerm);
+            }
+        }
+        return tile;
+    } 
+    private uint[] getFrequencies()
+    {
+        uint[] freqs = new uint[numberOfTiles];
+        for(int ii = 0; ii < numberOfTiles; ii++)
+        {
+            freqs[ii] += 1;
+            for(int jj = ii+1; jj < numberOfTiles; jj++)
+            {
+                int kk = 0;
+                while(kk < 4)
+                {
+                    if(tileEquals(tiles[ii][kk], tiles[jj][0])){
+                        freqs[ii]++;
+                        freqs[jj]++;
+                        kk += 4;
+                    }
+                    kk++;
+                }
+            }
+        }
+        return freqs;
+    }
+    private bool tileEquals(BlockData[,] tileA, BlockData[,] tileB)
+    {
+        for(int ii = 0; ii < tileSize; ii++)
+        {
+            for(int jj = 0; jj < tileSize; jj++)
+            {
+                if (!tileA[ii, jj].blockPerm.Equals(tileB[ii, jj]))
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    /*cutting this for now, this is for 4x4 tiles
+     * private (int, int)[,] tileRotationArray =
+    {
+        {(0,3), (0,2), (0,1), (0,0) },
+        {(1,3), (1,2), (1,1), (1,0) },
+        {(2,3), (2,2), (2,1), (2,0) },
+        {(3,3), (3,2), (3,1), (3,0) }
+    };*/
+    public static (int, int)[,] tileRotationArray =
+    {
+        {(0,2), (0,1), (0,0) },
+        {(1,2), (1,1), (1,0) },
+        {(2,2), (2,1), (2,0) }
+    };
+    public BlockData[,] getRotatedTile(BlockData[,] tile, uint rotations)
+    {
+        BlockData[,] rotatedTile = tile;
+        for(int rots = 0; rots < rotations; rots++)
+        {
+            rotatedTile = getRotatedTile(rotatedTile);
+        }
+        return rotatedTile;
+    }
+    public BlockData[,] getRotatedTile(BlockData[,] tile) 
+    {
+        BlockData[,] rotatedTile = tile;
+        for (uint x = 0; x < tileSize; x++)
+        {
+            for (uint y = 0; y < tileSize; y++)
+            {
+                (int, int) rot = tileRotationArray[x, y];
+                rotatedTile[rot.Item1,rot.Item2] = tile[x, y];
+            }
+        }
+        foreach(BlockData block in rotatedTile)
+        {
+            ulong perm = System.Convert.ToUInt64(block.blockPerm, 16);
+            block.blockPerm = BlockScript.getRotation(perm, 1).ToString("X");
+        }
+        return rotatedTile;
+    }
+    //wow, quintuple nested for loop. i feel so dirty
+    public bool[,,,,] getAdjacencyRules()
+    {
+        bool[,,,,] rules = new bool[numberOfTiles, 4, numberOfTiles, 4, 4]; //tileindex, tilerotation, tileindex, tilerotation, direction
+        for(uint tileA = 0; tileA < numberOfTiles; tileA++)
+        {
+            for(uint tileARots = 0; tileARots < 4; tileARots++)
+            {
+                for(uint tileB = 0; tileB < numberOfTiles; tileB++)
+                {
+                    for(uint tileBRots = 0; tileBRots < 4; tileBRots++)
+                    {
+                        for(uint direction = 0; direction < 4; direction++)
+                        {
+                            rules[tileA, tileARots, tileB, tileBRots, direction] = compatible(tiles[tileA][tileARots], tiles[tileB][tileBRots], direction);
+                        }
+                    }
+                }
+            }
+        }
+        return rules;
+    }
+    private bool compatible(BlockData[,] tileA, BlockData[,] tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
+    {
+        switch (direction)
+        {
+            case 0:
+                return compatibleUp(tileA, tileB);
+            case 1:
+                return compatibleRight(tileA, tileB);
+            case 2:
+                return compatibleDown(tileA, tileB);
+            case 3:
+                return compatibleLeft(tileA, tileB);
+        }
+
+        return true;
+    }
+    private bool compatibleUp(BlockData[,] tileA, BlockData[,] tileB)
+    {
+        for(uint x = 0; x < tileSize; x++)
+        {
+            for(uint y = 0; y < tileSize - 1; y++)
+            {
+                if(tileA[x,y].blockPerm != tileB[x, y + 1].blockPerm)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    private bool compatibleRight(BlockData[,] tileA, BlockData[,] tileB)
+    {
+        for (uint x = 1; x < tileSize; x++)
+        {
+            for (uint y = 0; y < tileSize; y++)
+            {
+                if (tileA[x, y].blockPerm != tileB[x - 1, y].blockPerm)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    private bool compatibleDown(BlockData[,] tileA, BlockData[,] tileB)
+    {
+        for (uint x = 0; x < tileSize; x++)
+        {
+            for (uint y = 1; y < tileSize; y++)
+            {
+                if (tileA[x, y].blockPerm != tileB[x, y - 1].blockPerm)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    private bool compatibleLeft(BlockData[,] tileA, BlockData[,] tileB)
+    {
+        for (uint x = 0; x < tileSize - 1; x++)
+        {
+            for (uint y = 0; y < tileSize; y++)
+            {
+                if (tileA[x, y].blockPerm != tileB[x + 1, y].blockPerm)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    public void debugPrint()
+    {
+        Debug.Log(xSize);
+        Debug.Log(ySize);
+        Debug.Log(numberOfTiles);
+        for (int ii = 0; ii < numberOfTiles; ii++)
+        {
+            Debug.Log("tile #" + ii);
+            for (int x = 0; x < tileSize; x++)
+            {
+                for (int y = 0; y < tileSize; y++)
+                {
+                    Debug.Log(tiles[ii][0][x, y].blockPerm);
+                }
+            }
+        }
     }
 }

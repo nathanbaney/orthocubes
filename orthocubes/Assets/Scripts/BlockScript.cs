@@ -10,13 +10,9 @@ public class BlockScript : MonoBehaviour
     public BlockData blockData;
     public bool[] walkable; //0 is NE, 1 SE, 2 SW, 3 NW, 4 up, 5 down
 
-    public ulong wallPerm = 0L; //System.Convert.ToUInt64("1000000000F00000",16);
     // Start is called before the first frame update
     void Start()
     {
-        wallPerm = 0x000F000F000F000F;
-        print(wallPerm);
-        print(getRotation(wallPerm, 1));
     }
 
     // Update is called once per frame
@@ -47,7 +43,6 @@ public class BlockScript : MonoBehaviour
         this.blockData = block_data;
         blockPerm = System.Convert.ToUInt64(block_data.blockPerm, 16);
         walkable = block_data.walkableData;
-        //print(block_data.walkableData[0]);
     }
     public void buildBlockPerm()
     {
@@ -65,11 +60,15 @@ public class BlockScript : MonoBehaviour
             voxelIndex++;
         }
     }
+    public void combinePerm(ulong perm)
+    {
+        blockPerm = blockPerm | perm;
+        buildBlockPerm();
+    }
     public void buildMaterialOverrides()
     {
         foreach (MaterialOverride mo in blockData.materialOverrides)
         {
-            //print(mo.voxelIndex + " " + mo.material);
             Material[] mats = transform.Find("voxel" + mo.voxelIndex).GetComponent<MeshRenderer>().materials;
             mats[0] = Resources.Load<Material>(mo.material);
             transform.Find("voxel" + mo.voxelIndex).GetComponent<MeshRenderer>().materials = mats;
@@ -92,14 +91,14 @@ public class BlockScript : MonoBehaviour
     //    4 1
     //     0
     // where the next y level with start with 16 where the 0 place is, incrementing the same way (x first, then z, then y)
-    private byte[][] rotationArray = new byte[][] 
+    private static byte[][] rotationArray = new byte[][] 
     {
         new byte[]{0,3,15,12},
         new byte[]{1,7,14,8},
         new byte[]{2,11,13,4},
         new byte[]{5,6,10,9}
     };
-    private int getRotationIndex(byte index, byte rotation) //1 is a 90 degree rotation ccw, 2 is 180, NO NEGATIVE ROTATIONS
+    private static int getRotationIndex(byte index, byte rotation) //1 is a 90 degree rotation ccw, 2 is 180, NO NEGATIVE ROTATIONS
     {
         int rotatedIndex = 64;
         byte rotationArrayLength = 4;
@@ -117,7 +116,7 @@ public class BlockScript : MonoBehaviour
         return rotatedIndex;
     }
 
-    public ulong getRotation(ulong blockPerm, byte rotation)
+    public static ulong getRotation(ulong blockPerm, byte rotation)
     {
         ulong rotatedPerm = 0;
         ulong bit = 1;
@@ -136,6 +135,20 @@ public class BlockData
     public string blockPerm;
     public bool[] walkableData;
     public List<MaterialOverride> materialOverrides;
+
+    public BlockData(string blockPerm, bool[] walkableData, List<MaterialOverride> materialOverrides)
+    {
+        this.blockPerm = blockPerm;
+        this.walkableData = walkableData;
+        this.materialOverrides = materialOverrides;
+    }
+    public BlockData()
+    {
+        this.blockPerm = "000000000000FFFF";
+        this.walkableData = new bool[] {true,true,true,true,true,true};
+        this.materialOverrides = null;
+
+    }
 }
 [System.Serializable]
 public class MaterialOverride
