@@ -91,21 +91,21 @@ public class BlockScript : MonoBehaviour
     //    4 1
     //     0
     // where the next y level with start with 16 where the 0 place is, incrementing the same way (x first, then z, then y)
-    private static byte[][] rotationArray = new byte[][] 
+    private static int[][] rotationArray = new int[][] 
     {
-        new byte[]{0,3,15,12},
-        new byte[]{1,7,14,8},
-        new byte[]{2,11,13,4},
-        new byte[]{5,6,10,9}
+        new int[]{0,3,15,12},
+        new int[]{1,7,14,8},
+        new int[]{2,11,13,4},
+        new int[]{5,6,10,9}
     };
-    private static int getRotationIndex(byte index, byte rotation) //1 is a 90 degree rotation ccw, 2 is 180, NO NEGATIVE ROTATIONS
+    private static int getRotationIndex(int index, int rotation) //1 is a 90 degree rotation ccw, 2 is 180, NO NEGATIVE ROTATIONS
     {
         int rotatedIndex = 64;
-        byte rotationArrayLength = 4;
-        byte rotationLevelLength = 16;
-        foreach(byte[] array in rotationArray)
+        int rotationArrayLength = 4;
+        int rotationLevelLength = 16;
+        foreach(int[] array in rotationArray)
         {
-            for(byte ii = 0; ii < array.Length; ii++)
+            for(int ii = 0; ii < array.Length; ii++)
             {
                 if(array[ii] == index % rotationLevelLength)
                 {
@@ -116,17 +116,33 @@ public class BlockScript : MonoBehaviour
         return rotatedIndex;
     }
 
-    public static ulong getRotation(ulong blockPerm, byte rotation)
+    public static ulong getRotation(ulong blockPerm, int rotation)
     {
         ulong rotatedPerm = 0;
+        ulong startingBitValue = 0;
+        ulong endingBit = 0;
         ulong bit = 1;
-        for (byte index = 0; index < 64; index++)
+        for (int index = 0; index < 64; index++)
         {
-            ulong startingBitValue = blockPerm & (bit << index);
-            ulong endingBit = startingBitValue << getRotationIndex(index, rotation) - index;
+            startingBitValue = blockPerm & (bit << index);
+            int bitDelta = (getRotationIndex(index, rotation) - index);
+            if (bitDelta >= 0)
+            {
+                endingBit = startingBitValue << (getRotationIndex(index, rotation) - index);
+            }
+            else
+            {
+                endingBit = startingBitValue >> Mathf.Abs((getRotationIndex(index, rotation) - index));
+            }
             rotatedPerm = rotatedPerm | endingBit;
         }
         return rotatedPerm;
+    }
+    public static string getRotation(string blockPerm, int rotation)
+    {
+        ulong perm = System.Convert.ToUInt64(blockPerm, 16);
+        ulong permRotated = getRotation(perm, rotation);
+        return permRotated.ToString("X16");
     }
 }
 [System.Serializable]

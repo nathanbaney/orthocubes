@@ -39,7 +39,8 @@ public class LevelScript : MonoBehaviour
         player = new Entity(new Coordinate(0, 0, 0), GameObject.Find("Player"));
         debugPalette = deserializePalette("PaletteJSON/debugPalette");
         debugPalette.processTiles();
-        //debugPalette.debugPrint();
+        //print(BlockScript.getRotation("111111111111FFFF", 1));
+        debugPalette.debugPrint();
         
         //debugBuildWall(4);
     }
@@ -276,7 +277,7 @@ public class Coordinate
     }
     public Vector3 getWorldCoordinate()
     {
-        return new Vector3(x*BlockScript.blockSize+2, y * BlockScript.blockSize + 2, z * BlockScript.blockSize + 2);
+        return new Vector3(x*BlockScript.blockSize+2, y * BlockScript.blockSize + 1, z * BlockScript.blockSize + 2);
     }
 }
 public class Entity
@@ -359,12 +360,8 @@ public class Palette
         tileSize = 3;
         numberOfTiles = xSize * ySize;
         getTiles();
-        for (int ii = 0; ii < numberOfTiles; ii++)
-        {
-            Debug.Log(tiles[ii][0].blocks[0, 0].blockPerm);
-        }
-        //frequencies = getFrequencies();
-        //adjacencyRules = getAdjacencyRules();
+        getFrequencies();
+        getAdjacencyRules();
     }
     private void getTiles()
     {
@@ -395,34 +392,31 @@ public class Palette
         {
             for(int jj = 0; jj < tileSize; jj++)
             {
-                //Debug.Log(sampleBlockArray[(x + ii) % xSize, (y + jj) % ySize].blockPerm);
-                //Debug.Log(sampleArray[(x + ii) % xSize + ((y + jj) % ySize)*xSize].blockPerm);
                 tile.setBlock(ii,jj,sampleBlockArray[(x + ii)%xSize, (y + jj)%ySize]);
             }
         }
         return tile;
     } 
-    private uint[] getFrequencies()
+    private void getFrequencies()
     {
-        uint[] freqs = new uint[numberOfTiles];
+        frequencies = new uint[numberOfTiles];
         for(int ii = 0; ii < numberOfTiles; ii++)
         {
-            freqs[ii] += 1;
+            frequencies[ii] += 1;
             for(int jj = ii+1; jj < numberOfTiles; jj++)
             {
                 int kk = 0;
                 while(kk < 4)
                 {
                     if(tileEquals(tiles[ii][kk], tiles[jj][0])){
-                        freqs[ii]++;
-                        freqs[jj]++;
+                        frequencies[ii]++;
+                        frequencies[jj]++;
                         kk += 4;
                     }
                     kk++;
                 }
             }
         }
-        return freqs;
     }
     private bool tileEquals(Tile tileA, Tile tileB)
     {
@@ -430,7 +424,7 @@ public class Palette
         {
             for(int jj = 0; jj < tileSize; jj++)
             {
-                if (!tileA.blocks[ii, jj].blockPerm.Equals(tileB.blocks[ii, jj]))
+                if (!string.Equals(tileB.blocks[ii, jj].blockPerm, tileA.blocks[ii, jj].blockPerm))
                 {
                     return false;
                 }
@@ -469,21 +463,17 @@ public class Palette
         {
             for (uint y = 0; y < tileSize; y++)
             {
-                Debug.Log("pos:" + x + " " + y + " perm: " + tile.blocks[x, y].blockPerm);
                 (int, int) rot = tileRotationArray[x, y];
                 rotatedTile.setBlock(rot.Item1, rot.Item2, tile.blocks[x, y]);
-                ulong perm = System.Convert.ToUInt64(rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm, 16);
-                string permString = BlockScript.getRotation(perm, 1).ToString("X");
-                rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm = permString;
-                Debug.Log("pos:" + x + " " + y + " perm: " + tile.blocks[x,y].blockPerm);
+                rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm = BlockScript.getRotation(rotatedTile.blocks[rot.Item1, rot.Item2].blockPerm, 1);
             }
         }
         return rotatedTile;
     }
     //wow, quintuple nested for loop. i feel so dirty
-    public bool[,,,,] getAdjacencyRules()
+    public void getAdjacencyRules()
     {
-        bool[,,,,] rules = new bool[numberOfTiles, 4, numberOfTiles, 4, 4]; //tileindex, tilerotation, tileindex, tilerotation, direction
+        adjacencyRules = new bool[numberOfTiles, 4, numberOfTiles, 4, 4]; //tileindex, tilerotation, tileindex, tilerotation, direction
         for(uint tileA = 0; tileA < numberOfTiles; tileA++)
         {
             for(uint tileARots = 0; tileARots < 4; tileARots++)
@@ -494,13 +484,12 @@ public class Palette
                     {
                         for(uint direction = 0; direction < 4; direction++)
                         {
-                            rules[tileA, tileARots, tileB, tileBRots, direction] = compatible(tiles[tileA][tileARots], tiles[tileB][tileBRots], direction);
+                            adjacencyRules[tileA, tileARots, tileB, tileBRots, direction] = compatible(tiles[tileA][tileARots], tiles[tileB][tileBRots], direction);
                         }
                     }
                 }
             }
         }
-        return rules;
     }
     private bool compatible(Tile tileA, Tile tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
     {
@@ -595,7 +584,7 @@ public class Palette
         Debug.Log(xSize);
         Debug.Log(ySize);
         Debug.Log(numberOfTiles);
-        for (int ii = 0; ii < numberOfTiles; ii++)
+        /*for (int ii = 0; ii < numberOfTiles; ii++)
         {
             Debug.Log("tile #" + ii);
             for (int x = 0; x < tileSize; x++)
@@ -605,6 +594,12 @@ public class Palette
                     Debug.Log(tiles[ii][0].blocks[x,y].blockPerm);
                 }
             }
+        }*/
+        for(int ii = 0; ii < numberOfTiles; ii++)
+        {
+            Debug.Log("tile# " + ii);
+            Debug.Log(tiles[ii][0].getString());
+            Debug.Log("count:" + frequencies[ii]);
         }
     }
 }
@@ -622,6 +617,19 @@ public class Tile
     public void setBlocks(BlockData[,] blocks)
     {
         this.blocks = blocks;
+    }
+    public string getString()
+    {
+        StringWriter writer = new StringWriter();
+        for(int y = 0; y < 3; y++)
+        {
+            for(int x = 0; x < 3; x++)
+            {
+                writer.Write(blocks[x, y].blockPerm + "\t");
+            }
+            writer.Write("\n");
+        }
+        return writer.ToString();
     }
 }
 [System.Serializable]
