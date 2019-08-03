@@ -25,23 +25,28 @@ public class LevelScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Resources.Load<TextAsset>("FloorJSON/floorData") != null)
+        debugPalette = deserializePalette("PaletteJSON/debugPalette2");
+        debugPalette.processTiles();
+        //debugPalette.debugPrint();
+        generateFromPalette(debugPalette);
+        /*if (Resources.Load<TextAsset>("FloorJSON/floorData") != null)
         {
+            print("deserializing");
             deserialize();
         }
         else
         {
-            buildBlankFloor();
+            print("not deserializing");
         }
+        /*else
+        {
+            print("building blank");
+            buildBlankFloor();
+        }*/
         buildBlocks();
         buildBlockPerms();
         buildMaterialOverrides();
         player = new Entity(new Coordinate(0, 0, 0), GameObject.Find("Player"));
-        debugPalette = deserializePalette("PaletteJSON/debugPalette");
-        debugPalette.processTiles();
-        //print(BlockScript.getRotation("111111111111FFFF", 1));
-        debugPalette.debugPrint();
-        
         //debugBuildWall(4);
     }
 
@@ -154,7 +159,24 @@ public class LevelScript : MonoBehaviour
     }
     void generateFromPalette(Palette palette)
     {
-
+        WFCGenerator gen = new WFCGenerator(palette, LEVEL_WIDTH, LEVEL_LENGTH);
+        (int,int)[] decodedGrid = gen.run();
+        levelData = new LevelData(LEVEL_WIDTH * LEVEL_LENGTH * LEVEL_HEIGHT);
+        for (int y = 0; y < LEVEL_HEIGHT; y++)
+        {
+            for (int z = 0; z < LEVEL_LENGTH; z++)
+            {
+                for (int x = 0; x < LEVEL_WIDTH; x++)
+                {
+                    levelData.blockData[x + z * LEVEL_WIDTH + y * LEVEL_LENGTH * LEVEL_WIDTH] = new BlockData();
+                    levelData.blockData[x + z * LEVEL_WIDTH + y * LEVEL_LENGTH * LEVEL_WIDTH].blockPerm = palette.tiles[decodedGrid[x + z * LEVEL_WIDTH].Item1][decodedGrid[x + z * LEVEL_WIDTH].Item2].blocks[0,0].blockPerm;
+                    Debug.Log("index:" + decodedGrid[x + z * LEVEL_WIDTH].Item1 + " rot:" + decodedGrid[x + z * LEVEL_WIDTH].Item2 + " " + palette.tiles[decodedGrid[x + z * LEVEL_WIDTH].Item1][decodedGrid[x + z * LEVEL_WIDTH].Item2].blocks[0, 0].blockPerm + " whats set: " + levelData.blockData[x + z * LEVEL_WIDTH + y * LEVEL_LENGTH * LEVEL_WIDTH].blockPerm);
+                }
+            }
+        }
+        StreamWriter writer = new StreamWriter("Assets/Resources/FloorJSON/floorData.json");
+        writer.Write(JsonUtility.ToJson(levelData, true));
+        writer.Close();
     }
 
     //entity + visibility functions
@@ -342,13 +364,13 @@ public class Palette
     public PaletteData paletteData;
     public uint xSize; //horizontal size of sample image
     public uint ySize; //vertical size of sample image
-    BlockData[,] sampleBlockArray; //the original sample "image", made 2d array
-    uint numberOfTiles;
+    public BlockData[,] sampleBlockArray; //the original sample "image", made 2d array
+    public uint numberOfTiles;
 
-    uint tileSize; //ALWAYS 3, IM TIRED OF MATRIX STUFF, NO EXCEPTIONS
-    Tile[][] tiles; //the set of tiles that make up the sample image. tileindex, rotation, the actual tile itself.
-    uint[] frequencies; //the amount that each tile occurs in the sample
-    bool[,,,,] adjacencyRules; //whether each tile and their rotations can exist 1 unit cardinal direction away from another tile without contradicting overlap
+    public uint tileSize; //ALWAYS 3, IM TIRED OF MATRIX STUFF, NO EXCEPTIONS
+    public Tile[][] tiles; //the set of tiles that make up the sample image. tileindex, rotation
+    public uint[][] frequencies; //the amount that each tile occurs in the sample, rotations counted separately
+    public bool[,,,,] adjacencyRules; //whether each tile and their rotations can exist 1 unit cardinal direction away from another tile without contradicting overlap
 
     public Palette()
     {
@@ -396,33 +418,12 @@ public class Palette
             }
         }
         return tile;
-    } 
-    private void getFrequencies()
-    {
-        frequencies = new uint[numberOfTiles];
-        for(int ii = 0; ii < numberOfTiles; ii++)
-        {
-            frequencies[ii] += 1;
-            for(int jj = ii+1; jj < numberOfTiles; jj++)
-            {
-                int kk = 0;
-                while(kk < 4)
-                {
-                    if(tileEquals(tiles[ii][kk], tiles[jj][0])){
-                        frequencies[ii]++;
-                        frequencies[jj]++;
-                        kk += 4;
-                    }
-                    kk++;
-                }
-            }
-        }
     }
     private bool tileEquals(Tile tileA, Tile tileB)
     {
-        for(int ii = 0; ii < tileSize; ii++)
+        for (int ii = 0; ii < tileSize; ii++)
         {
-            for(int jj = 0; jj < tileSize; jj++)
+            for (int jj = 0; jj < tileSize; jj++)
             {
                 if (!string.Equals(tileB.blocks[ii, jj].blockPerm, tileA.blocks[ii, jj].blockPerm))
                 {
@@ -431,6 +432,35 @@ public class Palette
             }
         }
         return true;
+    }
+    private void getFrequencies()
+    {
+        frequencies = new uint[numberOfTiles][];
+        for (int ii = 0; ii < numberOfTiles; ii++)
+        {
+            frequencies[ii] = new uint[4];
+            for (int rot = 0; rot < 4; rot++)
+            {
+                frequencies[ii][rot] = 1;
+            }
+        }
+        for (uint tileA = 0; tileA < numberOfTiles; tileA++)
+        {
+            for (uint tileARots = 0; tileARots < 4; tileARots++)
+            {
+                for (uint tileB = 0; tileB < numberOfTiles; tileB++)
+                {
+                    for (uint tileBRots = 0; tileBRots < 4; tileBRots++)
+                    {
+                        if (tileEquals(tiles[tileA][tileARots], tiles[tileB][tileBRots]))
+                        {
+                            frequencies[tileA][tileARots]++;
+                            frequencies[tileB][tileBRots]++;
+                        }
+                    }
+                }
+            }
+        }
     }
     /*cutting this for now, this is for 4x4 tiles
      * private (int, int)[,] tileRotationArray =
@@ -491,7 +521,7 @@ public class Palette
             }
         }
     }
-    private bool compatible(Tile tileA, Tile tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
+    public bool compatible(Tile tileA, Tile tileB, uint direction) //0 is up, 1 is right, 2 is down, 3 is left
     {
         switch (direction)
         {
@@ -638,4 +668,416 @@ public class PaletteData
     public int xSize;
     public int ySize;
     public BlockData[] sampleArray;
+}
+public class WFCGenerator
+{
+    public WFCGeneratorCell[][] grid;
+    public int xSize;
+    public int ySize;
+    private int uncollapsedCells;
+    private Palette palette;
+
+    private Heap heap;
+    private Stack<RemovalUpdate> removalStack;
+
+    public WFCGenerator(Palette palette, int xSize, int ySize)
+    {
+        uncollapsedCells = xSize * ySize;
+        this.palette = palette;
+        this.xSize = xSize;
+        this.ySize = ySize;
+        grid = new WFCGeneratorCell[xSize][];
+        ((int, int), float)[] input = new ((int, int), float)[xSize * ySize];
+        int index = 0;
+        for (int x = 0; x < xSize; x++)
+        {
+            grid[x] = new WFCGeneratorCell[ySize];
+            for(int y = 0; y < ySize; y++)
+            {
+                grid[x][y] = new WFCGeneratorCell((int)palette.numberOfTiles, Random.value / 100f, palette.frequencies);
+                input[index++] = ((x, y), grid[x][y].getEntropy());
+            }
+        }
+        heap = new Heap(input, xSize * ySize * 10);
+        removalStack = new Stack<RemovalUpdate>();
+        initializeEnablerCounts();
+    }
+    private void initializeEnablerCounts()
+    {
+        for(int x = 0; x < xSize; x++)
+        {
+            for(int y = 0; y < ySize; y++)
+            {
+                for(int tileA = 0; tileA < palette.numberOfTiles; tileA++)
+                {
+                    for(int tileARot = 0; tileARot < 4; tileARot++)
+                    {
+                        int[] tempCount = { 0,0,0,0};
+                        for(uint dir = 0; dir < 4; dir++) //for each cell next to the current cell...
+                        {
+                            for(int tileB = 0; tileB > palette.numberOfTiles; tileB++)
+                            {
+                                for(int tileBRot = 0; tileBRot < 4; tileBRot++)
+                                {
+                                    if (palette.compatible(palette.tiles[tileA][tileARot], palette.tiles[tileB][tileBRot], dir))
+                                    {
+                                        tempCount[dir]++;
+                                    }
+                                }
+                            }
+                        }
+                        grid[x][y].enablerCount[tileA] = tempCount;
+                    }
+                }
+            }
+        }
+    }
+    private (int,int)? chooseNextCell()
+    {
+        while (!heap.isEmpty())
+        {
+            (int, int) coord = heap.extractMin().Item1;
+            if (!grid[coord.Item1][coord.Item2].isCollapsed)
+            {
+                return coord;
+            }
+        }
+        return null;
+    }
+    private void collapseCellAt((int, int) coord)
+    {
+        (int,int) tileIndex = grid[coord.Item1][coord.Item2].chooseTileIndex(palette.frequencies);
+        grid[coord.Item1][coord.Item2].isCollapsed = true;
+        for(int ii = 0; ii < grid[coord.Item1][coord.Item2].possibilities.Length; ii++)
+        {
+            if (ii != tileIndex.Item1)
+            {
+                for(int rot = 0; rot < 4; rot++)
+                {
+                    grid[coord.Item1][coord.Item2].possibilities[ii][rot] = false;
+                    removalStack.Push(new RemovalUpdate(ii, rot, coord));
+                }
+            }
+            else
+            {
+                for (int rot = 0; rot < 4; rot++)
+                {
+                    if(rot != tileIndex.Item2)
+                    {
+                        grid[coord.Item1][coord.Item2].possibilities[ii][rot] = false;
+                        removalStack.Push(new RemovalUpdate(ii, rot, coord));
+                    }
+                }
+            }
+        }
+    }
+    private void propagate()
+    {
+        while(removalStack.Count > 0)
+        {
+            RemovalUpdate update = removalStack.Pop();
+            for(uint dir = 0; dir < 4; dir++)
+            {
+                (int, int) neighbor = getNeighbor(update.coordinate, (int)dir);
+                for (int tileB = 0; tileB > palette.numberOfTiles; tileB++)
+                {
+                    for (int tileBRot = 0; tileBRot < 4; tileBRot++)
+                    {
+                        if (palette.compatible(palette.tiles[update.index][update.rotation], palette.tiles[tileB][tileBRot], dir)) //for each compatible tile in the specified direction from the removal update tile...
+                        {
+                            if(grid[neighbor.Item1][neighbor.Item2].enablerCount[update.index][update.rotation] == 1) //if we are about to set a count to zero...
+                            {
+                                bool hasZero = false;
+                                foreach(int[] tileCount in grid[neighbor.Item1][neighbor.Item2].enablerCount)
+                                {
+                                    for(int tileRot = 0; tileRot < 4; tileRot++)
+                                    {
+                                        if (tileCount[tileRot] == 0) //if theres already a zero, then the potential has already been removed, and we dont want to re-remove it
+                                        {
+                                            hasZero = true;
+                                        }
+                                    }
+                                }
+                                if (!hasZero) //if is hasnt already been removed, remove it 
+                                {
+                                    grid[neighbor.Item1][neighbor.Item2].removeTile((uint)tileB, (uint)tileBRot, palette.frequencies);
+                                    if(grid[neighbor.Item1][neighbor.Item2].totalPossibilities(palette.frequencies) == 0)
+                                    {
+                                        //hit a contradiction, need to restart algo
+                                        Debug.Log("hit a contradiction, need to restart algorithm");
+                                    }
+                                    heap.insert((neighbor, grid[neighbor.Item1][neighbor.Item2].getEntropy()));
+                                    removalStack.Push(new RemovalUpdate(tileB, tileBRot, neighbor));
+                                }
+                            }
+                            grid[neighbor.Item1][neighbor.Item2].enablerCount[update.index][update.rotation]--;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    public (int,int)[] run()
+    {
+        while(uncollapsedCells > 0)
+        {
+            (int, int) nextCell = ((int,int))chooseNextCell();
+            collapseCellAt(nextCell);
+            propagate();
+            uncollapsedCells--;
+        }
+        return decodeGrid();
+    }
+    private (int,int)[] decodeGrid()
+    {
+        (int, int)[] decodedGrid = new (int, int)[xSize * ySize];
+        for(int y = 0; y < ySize; y++)
+        {
+            for(int x = 0; x < xSize; x++)
+            {
+                decodedGrid[x + y * xSize] = grid[x][y].getFinalTile();
+            }
+        }
+        return decodedGrid;
+    }
+    private (int,int) getNeighbor((int,int) start, int direction)
+    {
+        switch (direction)
+        {
+            case 0: //up
+                return (start.Item1, start.Item2 - 1);
+            case 1: //right
+                return (start.Item1 + 1, start.Item2);
+            case 2:
+                return (start.Item1, start.Item2 + 1);
+            case 3:
+                return (start.Item1 - 1, start.Item2);
+        }
+        return start;
+    }
+    private int oppositeDirection(int direction)
+    {
+        switch (direction)
+        {
+            case 0: //up
+                return 2;
+            case 1: //right
+                return 3;
+            case 2: //down
+                return 0;
+            case 3: //left
+                return 1;
+        }
+        return 0;
+    }
+    private class Heap //yeah, c# really doesnt have a heap in their standard lib. im thrilled
+    {
+        ((int, int), float)[] heapContents; //the int pair is the index of the gridspace, the float is the entropy
+        int heapSize;
+
+        public Heap(((int, int), float)[] input, int maxSize)
+        {
+            heapContents = new ((int, int), float)[maxSize];
+            heapSize = input.Length;
+            buildHeap(input);
+        }
+
+        private int getParent(int index)
+        {
+            return index / 2;
+        }
+        private int getLeft(int index)
+        {
+            return 2 * index;
+        }
+        private int getRight(int index)
+        {
+            return 2 * index + 1;
+        }
+        private void heapify(int index)
+        {
+            int left = getLeft(index);
+            int right = getRight(index);
+            int smallest = index;
+            if(left < heapSize && heapContents[left].Item2 < heapContents[index].Item2)
+            {
+                smallest = left;
+            }
+            if(right < heapSize && heapContents[right].Item2 < heapContents[index].Item2)
+            {
+                smallest = right;
+            }
+            if (smallest != index)
+            {
+                swap(index, smallest);
+                heapify(smallest);
+            }
+        }
+        private void swap(int index1, int index2)
+        {
+            ((int, int), float) temp = heapContents[index1];
+            heapContents[index1] = heapContents[index2];
+            heapContents[index2] = temp;
+        }
+        private void buildHeap(((int, int), float)[] input)
+        {
+            for(int ii = 0; ii < input.Length; ii++)
+            {
+                heapContents[ii] = input[ii];
+            }
+            for(int ii = heapSize / 2; ii >= 0; ii--)
+            {
+                heapify(ii);
+            }
+        }
+        private void decreaseKey(int index, float newValue)
+        {
+            if (newValue > heapContents[index].Item2)
+            {
+                Debug.Log("heap error: tried to increase key in min heap");
+                return;
+            }
+            else
+            {
+                int tempIndex = index;
+                heapContents[index].Item2 = newValue;
+                while(tempIndex > 0 && heapContents[getParent(tempIndex)].Item2 < heapContents[tempIndex].Item2)
+                {
+                    swap(tempIndex, getParent(tempIndex));
+                    tempIndex = getParent(tempIndex);
+                }
+            }
+        }
+        public bool isEmpty()
+        {
+            return heapSize < 1;
+        }
+        public ((int,int), float) extractMin()
+        {
+            ((int, int), float) min = heapContents[0];
+            heapContents[0] = heapContents[--heapSize];
+            heapify(0);
+            return min;
+        }
+        public void insert(((int, int), float) item)
+        {
+            int index = heapSize++;
+            heapContents[index] = item;
+            heapContents[index].Item2 = float.MaxValue;
+            decreaseKey(index, item.Item2);
+        }
+    }
+    private class RemovalUpdate
+    {
+        public int index;
+        public int rotation;
+        public (int,int) coordinate;
+
+        public RemovalUpdate(int index, int rotation, (int,int) coordinate)
+        {
+            this.index = index;
+            this.rotation = rotation;
+            this.coordinate = coordinate;
+        }
+    }
+
+}
+public class WFCGeneratorCell
+{
+    public bool isCollapsed;
+    public bool[][] possibilities;
+    uint sumOfWeights;
+    float sumOfWeightLogWeights;
+    public float entropyNoise;
+    public int[][] enablerCount;
+
+    public WFCGeneratorCell(int numberOfTiles, float random, uint[][] freqs)
+    {
+        isCollapsed = false;
+        possibilities = new bool[numberOfTiles][];
+        for(int ii = 0; ii < numberOfTiles; ii++)
+        {
+            possibilities[ii] = new bool[4];
+            for (int jj = 0; jj < 4; jj++) //set rotations too, dummy
+            {
+                possibilities[ii][jj] = true;
+                sumOfWeights += freqs[ii][jj];
+            }
+        }
+        entropyNoise = random;
+        enablerCount = new int[numberOfTiles][]; //each tile has 4 enabler counts, 1 for each neighbor
+        for(int ii = 0; ii < numberOfTiles; ii++)
+        {
+            enablerCount[ii] = new int[4];
+        }
+    }
+    public void removeTile(uint tileIndex, uint rotation, uint[][] freqs)
+    {
+        possibilities[tileIndex][rotation] = false;
+        sumOfWeights -= freqs[tileIndex][rotation];
+        sumOfWeightLogWeights -= (freqs[tileIndex][rotation] * Mathf.Log(freqs[tileIndex][rotation]));
+    }
+    public uint totalPossibilities(uint[][] freqs)
+    {
+        uint total = 0;
+        for(int ii = 0; ii < freqs.Length; ii++)
+        {
+            for(int rots = 0; rots < 4; rots++)
+            {
+                if (possibilities[ii][rots])
+                {
+                    total += freqs[ii][rots];
+                }
+            }
+        }
+        return total;
+    }
+    public float getEntropy()
+    {
+        return Mathf.Log(sumOfWeights) - (sumOfWeightLogWeights / sumOfWeights);
+    }
+    public (int,int) chooseTileIndex(uint[][] freqs)
+    {
+        int index = (int)(Random.value * sumOfWeights);
+        for(int ii = 0; ii < possibilities.Length; ii++)
+        {
+            uint sum = 0;
+            foreach(uint freq in freqs[ii])
+            {
+                sum += freq;
+            }
+            if (index >= sum)
+            {
+                index -= (int)sum;
+            }
+            else
+            {
+                for(int rot = 0; rot < 4; rot++)
+                {
+
+                    if (possibilities[ii][rot])
+                    {
+                        return (ii, rot);
+                    }
+                }
+            }
+        }
+        Debug.Log("chooseTileIndex...how did you end up here?!?");
+        return (0,0);
+    }
+    public (int,int) getFinalTile()
+    {
+        for(int index = 0; index < possibilities.Length; index++)
+        {
+            for(int rot = 0; rot < 4; rot++)
+            {
+                if (possibilities[index][rot])
+                {
+                    return (index, rot);
+                }
+            }
+        }
+        Debug.Log("couldnt find a final tile for whatever reason :/");
+        return (0, 0);
+    }
 }

@@ -162,7 +162,7 @@ public class BlockData
     {
         this.blockPerm = "000000000000FFFF";
         this.walkableData = new bool[] {true,true,true,true,true,true};
-        this.materialOverrides = null;
+        this.materialOverrides = new List<MaterialOverride>();
 
     }
 }

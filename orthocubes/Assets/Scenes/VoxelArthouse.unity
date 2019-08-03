@@ -445,9 +445,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   block: {fileID: 190168785117885210, guid: 3c08bf996d2b5d24eb66e899e438d205, type: 3}
-  LEVEL_WIDTH: 4
+  LEVEL_WIDTH: 20
   LEVEL_HEIGHT: 1
-  LEVEL_LENGTH: 4
+  LEVEL_LENGTH: 20
   levelVis: 
   mat1: {fileID: 0}
   wallPerm: 4222189076152335
