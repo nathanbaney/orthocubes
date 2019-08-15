@@ -66,7 +66,10 @@
     <Compile Include="Assets\Scripts\BuildingScript.cs" />
     <Compile Include="Assets\Scripts\CamScript.cs" />
     <Compile Include="Assets\Scripts\LevelScript.cs" />
+    <Compile Include="Assets\Scripts\PaletteMakerScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\RoomGeneratorScript.cs" />
+    <Compile Include="Assets\Scripts\WFCScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/dev/orthocubes/orthocubes/orthocubes/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

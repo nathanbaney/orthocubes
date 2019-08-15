@@ -1,0 +1,198 @@
+{
+	"xSize": 4,
+	"ySize": 4,
+    "sampleArray": [
+        {
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "999999999999FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "999999999999FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "F00FF00FF00FFFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "900990099009FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "F00FF00FF00FFFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "F00FF00FF00FFFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "999999999999FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        },
+		{
+            "blockPerm": "000000000000FFFF",
+            "walkableData": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "materialOverrides": []
+        }	
+    ]
+}

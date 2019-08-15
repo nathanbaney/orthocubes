@@ -8,7 +8,7 @@ public class BlockScript : MonoBehaviour
     public GameObject voxel;
     public ulong blockPerm;
     public BlockData blockData;
-    public bool[] walkable; //0 is NE, 1 SE, 2 SW, 3 NW, 4 up, 5 down
+    public bool[] walkable; //0 is +X, 1 -Y, 2 -X, 3 +Y, 4 up, 5 down
 
     // Start is called before the first frame update
     void Start()
@@ -144,6 +144,18 @@ public class BlockScript : MonoBehaviour
         ulong permRotated = getRotation(perm, rotation);
         return permRotated.ToString("X16");
     }
+
+    public static bool[] getWalkableRotation(bool[] walkableData, int rotation)
+    {
+        bool[] walkableDataRotated = new bool[6];
+        for(int ii = 0; ii < 4; ii++)
+        {
+            walkableDataRotated[(ii + rotation) % 4] = walkableData[ii];
+        }
+        walkableDataRotated[4] = walkableData[4];
+        walkableDataRotated[5] = walkableData[5];
+        return walkableDataRotated;
+    }
 }
 [System.Serializable]
 public class BlockData
@@ -163,6 +175,13 @@ public class BlockData
         this.blockPerm = "000000000000FFFF";
         this.walkableData = new bool[] {true,true,true,true,true,true};
         this.materialOverrides = new List<MaterialOverride>();
+        for(int ii = 16; ii < 64; ii++)
+        {
+            MaterialOverride materialOverride = new MaterialOverride();
+            materialOverride.voxelIndex = ii;
+            materialOverride.material = "Materials/concrete";
+            materialOverrides.Add(materialOverride);
+        }
 
     }
 }
